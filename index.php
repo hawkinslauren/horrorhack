@@ -16,8 +16,9 @@
 <body>
 	<!-- HTML here. -->
 <?php require('nav.php'); ?>
-	<div class="jumbotron">
-		<h1 class="display-1">Horror Hackathon</h1>
+	<div class="jumbotron bg-danger text-light hero">
+		<div class="container">
+			<h1 class="display-1">Horror Hackathon</h1>
 		<h2>Vote on the best movies of 2018</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 		incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -25,7 +26,7 @@
 		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 		culpa qui officia deserunt mollit anim id est laborum.</p>
-
+		</div>
 	</div>
 	<div class="container">
 		<h3 class="text-center">Vote for your favorite!</h3>
@@ -40,7 +41,7 @@
 					foreach($d as $v){
 						echo '<div class="col-sm-4">
 								<a href="moviedetail.php#'.$v[id].'" class="d-inline-block">
-									<img src="'.$v[poster].'" class="img-fluid">
+									<img src="'.$v[poster].'" class="img-fluid border">
 									<h4>'.$v[name].'</h4>
 								</a>
 								<p><a href="moviedetail.php#'.$v[id].'" class="btn btn-primary">See Details</a></p>

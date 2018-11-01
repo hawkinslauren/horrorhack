@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Griffy');
+
+*{
+	font-family: 'EB Garamond', serif;
+}
+
+.bg-danger{
+	background-color: #1C0003!important;
+	border-radius:0px;
+}
+
+.hero{
+	background:url('../../hero1.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.navbar-dark .navbar-brand{
+	font-family: 'Griffy', cursive;
+	font-size:30px;
+}
+
+a{
+	color: #1C0003;
+}
+a:hover{
+	color: #7F512C;
+}
+
+.btn-primary{
+	background-color: #7F512C;
+	border:none;
+}
+
+label{
+	width:100%;
+}
+
+
+
+.btn-primary:hover{
+	background-color: #1C0003;
+}

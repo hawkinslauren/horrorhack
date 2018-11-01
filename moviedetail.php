@@ -18,10 +18,13 @@
 <body>
 	<!-- HTML here. -->
 	<?php require('nav.php'); ?>
-	<div class="jumbotron">
+	<div class="jumbotron bg-danger text-light mb-0">
+		<div class="container">
 		<h1 class="display-1"></h1>
 		<p>Description of movie.</p>
 	</div>
+		</div>
+	
 	<div class="embed-responsive embed-responsive-16by9">
   <iframe id="trailer" class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 </div>
