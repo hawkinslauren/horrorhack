@@ -24,7 +24,7 @@
 			<h2>Added movies are voted on.</h2>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container pb-5">
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
@@ -57,8 +57,20 @@
 			</div>
 			<div class="col-md-3"></div>
 		</div>
-
 	</div>
+	<div class="container pb-5">
+				<div class="row">
+			<div class="col"></div>
+			<div class="col">
+				<p>
+					To demo, you can download this package that contains images, and text:
+					<a href="demopackage.zip" target="_blank">Download Demo Package</a>
+				</p>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+		 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="assets/js/jquery.js"></script>

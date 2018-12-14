@@ -28,8 +28,8 @@
 		culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
-	<div class="container">
-		<h3 class="text-center">Vote for your favorite!</h3>
+	<div class="container p-5">
+		<h3 class="text-center display-4 pb-5">Vote for your favorite!</h3>
 		<form method="post" action="vote.php">
 			<div class="row" id="movies">
 
@@ -40,17 +40,17 @@
 					$total = 0;
 					foreach($d as $v){
 						echo '<div class="col-sm-4">
-								<a href="moviedetail.php#'.$v[id].'" class="d-inline-block">
-									<img src="'.$v[poster].'" class="img-fluid border">
-									<h4>'.$v[name].'</h4>
+								<a href="moviedetail.php#'.$v['id'].'" class="d-inline-block">
+									<img src="'.$v['poster'].'" class="img-fluid border">
+									<h4>'.$v['name'].'</h4>
 								</a>
-								<p><a href="moviedetail.php#'.$v[id].'" class="btn btn-primary">See Details</a></p>
-								<p>Votes: '.$v[votes].'</p>
+								<p><a href="moviedetail.php#'.$v['id'].'" class="btn btn-primary">See Details</a></p>
+								<p>Votes: '.$v['votes'].'</p>
 								<label>
-									<input type="radio" value="'.$v[id].'" name="vote"> This was the best movie!
+									<input type="radio" value="'.$v['id'].'" name="vote"> This was the best movie!
 								</label>
 							</div>';
-						$total += $v[votes];
+						$total += $v['votes'];
 					}
 				?>
 			</div>
